@@ -12,6 +12,12 @@
         <junit.jupiter.version>5.2.0</junit.jupiter.version>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.organization>anjanbanoth</sonar.organization>
+        <sonar.projectkey>anjanbanoth_9amjavacodecheck</sonar.projectkey>
+        <sonar.login>32d35e44697180b052db4d63f968139817d42a62</sonar.login>
+        
     </properties>
 
     <dependencies>
