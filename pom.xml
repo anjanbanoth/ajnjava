@@ -19,7 +19,14 @@
         <sonar.login>32d35e44697180b052db4d63f968139817d42a62</sonar.login>
         
     </properties>
-
+    
+        <distributionManagement>
+          <snapshotRepository>
+             <id>snapshots</id>
+             <name>cbops</name>
+             <url>https://anjanb.jfrog.io/artifactory/libs-snapshot</url>
+          </snapshotRepository>
+        </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
